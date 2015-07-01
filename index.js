@@ -1,4 +1,4 @@
-var DS = require('../sdk-dslink-javascript/dist/dslink.node.js');
+var DS = require('dslink');
 
 var Increment = DS.createNode({
   onInvoke: function(columns) {
