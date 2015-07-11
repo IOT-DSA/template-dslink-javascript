@@ -4,10 +4,10 @@ var DS = require('dslink');
 var Increment = DS.createNode({
   onInvoke: function(columns) {
     // get current value of the link
-    var previous = link.getNode('/counter').lastValueUpdate.value;
+    var previous = link.val('/counter');
 
     // set new value by adding an amount to the previous amount
-    link.getNode('/counter').updateValue(previous + parseInt(columns.amount));
+    link.val('/counter', previous + parseInt(columns.amount));
   }
 });
 
