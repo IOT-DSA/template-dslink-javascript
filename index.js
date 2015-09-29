@@ -40,8 +40,8 @@ var link = new DS.LinkProvider(process.argv.slice(2), 'javascript-template-', {
   // when we use $is with increment, it
   // creates our Increment node
   profiles: {
-    increment: function(path) {
-      return new Increment(path);
+    increment: function(path, provider) {
+      return new Increment(path, provider);
     }
   }
 });
