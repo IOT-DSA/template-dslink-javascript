@@ -27,3 +27,5 @@ build/Release
 node_modules
 
 .dslink.key
+.dslink.commit
+.dslink.key

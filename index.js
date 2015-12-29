@@ -12,7 +12,7 @@ var Increment = DS.createNode({
 });
 
 // Process the arguments and initializes the default nodes.
-var link = new DS.LinkProvider(process.argv.slice(2), 'javascript-template-', {
+var link = new DS.LinkProvider(process.argv.slice(2), 'template-javascript-', {
   defaultNodes: {
     // counter is a value node, it holds the value of our counter
     counter: {
