@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/IOT-DSA/dslink-javascript-template",
   "dependencies": {
-    "dslink": "git://github.com/IOT-DSA/sdk-dslink-javascript.git#artifacts"
+    "dslink": "^1.0.0",
   }
 }
