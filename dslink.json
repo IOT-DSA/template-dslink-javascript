@@ -1,10 +1,10 @@
 {
-  "name": "template-dslink-javascript",
-  "version": "1.0.0",
+  "name": "name-of-template-dslink-javascript",
+  "version": "2.0.0",
   "description": "A template to kickstart creating a DSLink using the JavaScript SDK.",
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=10.0.0"
   },
   "getDependencies": [
     "node install.js"
@@ -13,6 +13,5 @@
     "broker": {
       "type": "url"
     }
-  },
-  "license": "Apache"
+  }
 }
