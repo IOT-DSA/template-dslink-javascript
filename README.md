@@ -2,7 +2,7 @@
 A template to kickstart creating a DSLink using the JavaScript SDK.
 
 ## Install nodejs
-pleas install nodejs version 10 or higher before installing the dslink
+please install nodejs version 10 or higher before installing the dslink
 
 https://nodejs.org/en/download/package-manager/
 
