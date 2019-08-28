@@ -12,6 +12,13 @@
   "configs": {
     "broker": {
       "type": "url"
+    },
+    "token": {
+      "type": "string"
+    },
+    "log": {
+      "type": "enum",
+      "default": "info"
     }
   }
 }
