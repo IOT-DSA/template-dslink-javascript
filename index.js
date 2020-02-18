@@ -20,7 +20,7 @@ function main() {
   rootNode.createChild('value', MyValueNode);
 
   // create the link
-  let link = new DSLink('mydslink', {rootNode});
+  let link = new DSLink('mydslink', {rootNode}, process.argv);
 
   link.connect();
 }
