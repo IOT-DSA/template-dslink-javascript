@@ -17,3 +17,14 @@ creating a zip with these files so you can install it to the dsa broker through 
 - any other js file you created
 
 
+## Creating nodes
+
+Please check these examples of responder dslink:
+
+https://github.com/IOT-DSA/sdk-dslink-ts/tree/master/example/nodejs-responder
+
+## Accessing other dslinks
+
+Examples of requester dslink:
+
+https://github.com/IOT-DSA/sdk-dslink-ts/tree/master/example/nodejs-requester
