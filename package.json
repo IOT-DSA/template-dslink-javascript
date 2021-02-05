@@ -7,13 +7,16 @@
     "type": "git",
     "url": "https://github.com/IOT-DSA/dslink-javascript-template.git"
   },
-  "author": "",
+  "author": "Rick Zhou",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/IOT-DSA/dslink-javascript-template/issues"
   },
   "homepage": "https://github.com/IOT-DSA/dslink-javascript-template",
   "dependencies": {
-    "dslink": "^2.1.19"
+    "dslink": "^2.2.3"
+  },
+  "scripts": {
+    "run": "node ./index.js --broker http://localhost:8080/conn"
   }
 }
