@@ -16,6 +16,16 @@ creating a zip with these files so you can install it to the dsa broker through 
 - index.js
 - any other js file you created
 
+## Creating zip package with npm dependencies
+
+creating a zip with these files so you can install it to the dsa broker through the sys action at `/sys/links/Install from Zip`
+
+- dslink.json
+  - remove line 10 from the file before zipping, `"node install.js"`
+- package.json
+- node_modules folder
+- index.js
+- any other js file you created
 
 ## Creating nodes
 
